@@ -6,7 +6,23 @@ https://wxianfeng.github.io Source Code
 brew install hugo
 ```
 
-## Develop
+## Generate Site
+```bash
+hugo new site /path/to/wxianfeng.github.io
+```
+
+## Install Theme
+```bash
+cd themes
+git clone https://github.com/Fastbyte01/KeepIt.git
+```
+
+set ` config.toml` set theme to KeepIt
+```bash
+theme = "KeepIt"
+```
+
+## Write Post
 ```bash
 hugo server --theme=KeepIt --buildDrafts
 ```
