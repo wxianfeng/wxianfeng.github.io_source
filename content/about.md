@@ -4,9 +4,10 @@ date: 2020-06-04T00:44:17+08:00
 ---
 
 ### About Site
-> * 本站始建于 2020 全球新冠疫情期间；  
-> * 一直想使用静态 Blog，直接本地 markdown 写文章，git push 即可；终于基于 Golang 的 Hugo 搭建了这个静态 Blog；  
-> * 原先基于 Typo(Ruby On Rails) 的 Blog不再更新，地址为 http://blog.wxianfeng.com。
+> * 本站始建于 2020 全球新冠疫情期间  
+> * 一直想使用静态 Blog，直接本地 markdown 写文章，git push 即可；终于基于 Golang 的 Hugo 搭建了这个静态 Blog，托管在 Github Pages  
+> * 原先基于 Typo(Ruby On Rails) 的 Blog不再更新，地址为 http://blog.wxianfeng.com  
+> * 域名购于 Godaddy，DNS 使用的 Aliyun DNS，服务器在 Linode，准备迁移到 Aliyun
 
 ### About Me
 > * 豆爸
