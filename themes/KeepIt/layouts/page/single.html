@@ -1,0 +1,15 @@
+{{ define "content" }}
+<div class="post-warp archive">
+    <h2 class="post-title" style="text-align:right;padding-bottom:2em">{{ .Title }}</h2>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+</div>
+
+<div class="post-comment">
+    {{ if ( .Params.showComments | default true ) }}
+    {{ partial "comments.html" . }}
+    {{ end }}
+</div>
+
+{{end }}

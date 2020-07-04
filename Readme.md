@@ -48,10 +48,16 @@ hugo --theme=KeepIt --baseUrl="https://wxianfeng.github.io/"
 
 * push to github
 ```
-cd public && git push
+cd public && git add . && git commit -m "update" && git push
 ```
 
 Visit https://wxianfeng.github.io
+
+或者使用封装好的脚本
+
+```bash
+./bin/deploy.sh
+```
 
 That's All, Enjoy ~
 
