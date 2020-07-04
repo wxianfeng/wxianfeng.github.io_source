@@ -7,30 +7,16 @@ http://wxianfeng.com is CNAME to https://wxianfeng.github.io
 brew install hugo
 ```
 
-## Write Post
-* start local server
+## Start Local Blog
 ```bash
 hugo server --theme=KeepIt --buildDrafts
 ```
 
-Visit `http://localhost:1313/`
-
-* create `About` page
-```bash
-hugo new about.md
-```
-
-* create post
-```bash
-hugo new posts/first.md
-```
-
-## Deploy
+## Deploy to Github Pages
 * generate static file
 ```bash
 hugo --theme=KeepIt --baseUrl="https://wxianfeng.github.io/"
 ```
-(注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。)
 
 * push to github
 ```
@@ -48,5 +34,6 @@ Visit https://wxianfeng.github.io
 That's All, Enjoy ~
 
 ## 其他 tips
-* 如果修改 theme layout 文件，注意需要重启 `hugo server`
-
+* 如果你想了解本站点是如何建出来的，请参考如下文章
+   - [使用 Hugo + Github Pages 搭建静态网站](http://wxianfeng.com/2020/hugo-github-page/)
+   - [Readme_Hugo](https://github.com/wxianfeng/wxianfeng.github.io_source/blob/master/Readme_Hugo.md)
