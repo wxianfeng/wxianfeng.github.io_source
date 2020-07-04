@@ -178,7 +178,7 @@ clientSecret = "" # Your client secret
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
+    owner = "wxianfeng"              # Your GitHub ID
     repo = ""               # The repo to store comments
 
 [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
