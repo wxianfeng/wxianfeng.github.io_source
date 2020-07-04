@@ -2,13 +2,28 @@ http://wxianfeng.com Source Code
 ====
 http://wxianfeng.com is CNAME to https://wxianfeng.github.io
 
-## Install Hugo
+## Install
 ```bash
 brew install hugo
 ```
 
+## Generate Site
+```bash
+hugo new site /path/to/wxianfeng.github.io
+```
+
+## Install Theme
+```bash
+cd themes
+git clone https://github.com/Fastbyte01/KeepIt.git
+```
+
+set ` config.toml` set theme to KeepIt
+```bash
+theme = "KeepIt"
+```
+
 ## Write Post
-* start local server
 ```bash
 hugo server --theme=KeepIt --buildDrafts
 ```
