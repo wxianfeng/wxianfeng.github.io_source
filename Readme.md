@@ -61,3 +61,6 @@ Visit https://wxianfeng.github.io
 
 That's All, Enjoy ~
 
+## 其他 tips
+* 如果修改 theme layout 文件，注意需要重启 `hugo server`
+

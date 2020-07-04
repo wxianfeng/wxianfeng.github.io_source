@@ -35,9 +35,14 @@ disqusShortname = ""
     weight = 3
 
   [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+  [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 4
+    weight = 5
 
 [params]
     since = 2020

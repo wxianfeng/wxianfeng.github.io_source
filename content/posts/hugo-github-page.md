@@ -1,6 +1,8 @@
 ---
 title: "使用 Hugo + Github Pages 搭建静态网站"
 date: 2020-03-04T00:44:35+08:00
+categories: ["wxianfeng.com"]
+tags: ["Hugo", "静态博客", "Golang", "Github Pages", "KeepIt"]
 ---
 
 ## 缘起
@@ -72,6 +74,12 @@ hugo --theme=KeepIt --baseUrl="https://wxianfeng.github.io/"
 2. 在你的域名 DNS 管理处添加 CNAME 解析到 wxianfeng.github.io
 
 至此，你的静态 Blog 已经搭建完成，Enjoy it ~ 
+
+### 本 Blog 相关代码
+这个 Blog 的相关代码，如果你需要需要的话，可以参考
+
+[Blog wxiafeng.com 源码](https://github.com/wxianfeng/wxianfeng.github.io_source)  
+[Blog wxianfeng.com Github Page 源码](https://github.com/wxianfeng/wxianfeng.github.io)
 
 > PS:  
 > 本文随着该 Blog 的功能迭代升级会持续更新
