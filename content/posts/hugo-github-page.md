@@ -76,7 +76,7 @@ hugo --theme=KeepIt --baseUrl="https://wxianfeng.github.io/"
 至此，你的静态 Blog 已经搭建完成，Enjoy it ~ 
 
 ### 本 Blog 相关代码
-这个 Blog 的相关代码，如果你需要需要的话，可以参考
+这个 Blog 的相关代码，如果你需要的话，可以参考
 
 * [Blog wxiafeng.com 源码](https://github.com/wxianfeng/wxianfeng.github.io_source)  
 * [Blog wxianfeng.com Github Page 源码](https://github.com/wxianfeng/wxianfeng.github.io)
