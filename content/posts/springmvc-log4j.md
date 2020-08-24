@@ -8,8 +8,8 @@ tags: ["Java", "SpringMVC", "log4j", "log4j2"]
 
 > 发现网上关于 log4j, log4j2 的配置比较乱。特别是引用的包，参差不齐，本人最近从 log4j 升级到了 log4j2，特此记录，供参考。
 
-# log4j 配置
-## Maven
+## log4j 配置
+### Maven
 ```xml
 <slf4j.version>1.7.7</slf4j.version>
 <log4j.version>1.2.16</log4j.version>
@@ -35,7 +35,7 @@ tags: ["Java", "SpringMVC", "log4j", "log4j2"]
 `slf4j-api`: slf4j 库，日志门面工厂方法  
 `log4j`: log4j 实现库  
 
-## web.xml
+### web.xml
 ```xml
     <!-- log4j -->
     <context-param>
@@ -44,7 +44,7 @@ tags: ["Java", "SpringMVC", "log4j", "log4j2"]
     </context-param>
 ```
 
-## log4j.properties
+### log4j.properties
 ```java
 log4j.rootLogger = info, fileout, stdout
 
@@ -58,7 +58,7 @@ log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
 log4j.appender.stdout.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} app [%X{traceId}] %-5p [%t] %c{2}:%L - %m%n
 ```
 
-## 使用
+### 使用
 ```java
 public class A {
     private static final Logger logger = LoggerFactory.getLogger(A.class);
@@ -66,8 +66,8 @@ public class A {
 ```
 
 
-# log4j2 配置
-## Maven
+## log4j2 配置
+### Maven
 ```xml
 <dependency>
     <groupId>org.slf4j</groupId>
@@ -102,7 +102,7 @@ public class A {
 `log4j-api`: log4j2 核心库  
 `log4j-slf4j-impl`: slf4j 到 log4j2 的绑定器，桥接包  
 
-## log4j2.xml
+### log4j2.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info">
@@ -142,8 +142,8 @@ public class A {
 </Configuration>
 ```
 
-## 使用
+### 使用
 使用和之前 log4j 一样  
 
-# 总结
+## 总结
 推荐使用 log4j2，支持异步日志，日志中还可以取到 `${hostName}`  
