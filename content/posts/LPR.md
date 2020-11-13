@@ -19,8 +19,8 @@ tags: ["LPR", "理财", "投资"]
 ## LPR 算法
 要不要改 LPR，首先我们得知道 LPR 的计算算法，然后你可以对照着算下你的 LPR 值，LPR 计算算法如下:
 
-$$ LPR = LPR\left ( base \right ) + Point $$
 $$ Point = P(old) - P(base) $$
+$$ LPR = LPR\left ( base \right ) + Point $$
 
 `LPR`: 要计算的 LPR 利率  
 `LPR(base)`:  LPR 基准利率，每月变化
