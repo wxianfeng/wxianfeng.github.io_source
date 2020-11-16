@@ -23,7 +23,7 @@ $$ Point = P(old) - P(base) $$
 $$ LPR = LPR\left ( base \right ) + Point $$
 
 `LPR`: 要计算的 LPR 利率  
-`LPR(base)`:  LPR 基准利率，每月变化
+`LPR(base)`:  LPR 基准利率，每月变化  
 `Point`:  计算出的 LPR 利率加点，人行的基准利率很少变化，可以认为算出的加点值就是固定的  
 `P(old)`:  你的按揭贷款原先执行利率  
 `P(base)`:  最新的人行基准利率，例如 2019.12.31 号是 4.8
